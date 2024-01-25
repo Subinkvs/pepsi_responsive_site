@@ -1,0 +1,133 @@
+.list-1{
+    padding-top: 10px;
+    row-gap: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    align-items: center;
+}
+.navbar{
+    border-bottom: 2px solid white;
+}
+.navbar-nav .nav-item{
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar-nav .nav-item{
+    display: flex;
+}
+
+.icons ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    padding-top: 10px;
+
+}
+@media screen and (min-width:767px)  {
+   .icons ul{
+    display: flex;
+    justify-content: center;
+   }
+}
+@media screen and (min-width:375px) and (max-width:767px) {
+    .icons ul{
+     display: flex;
+     justify-content: center;
+    }
+ }
+@media screen and (min-width:1400px)  {
+    .icons ul{
+     display: flex;
+     justify-content: flex-end;
+    }
+ }
+
+.banner-1 {
+    width: 100%;
+    max-width: 100%;
+    height:700px;
+    background-image: url('./Pepsi/pictures/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel1{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.card-text{
+    display: flex;
+    justify-content: center;
+
+}
+.card-body button{
+    display:flex;
+    justify-content: center;
+    
+
+}
+.para{
+    font-size: 36px;
+    font-weight: 600;
+}
+.para1{
+    font-size: 18px;
+    font-weight: 600;
+}
+.card-body button{
+ background-color: white;
+ color:#0000fe;
+ font-weight: 700;
+ padding-left: 5px;
+ padding-bottom: 5px;
+ padding-left: 5px;
+ padding-right: 5px;
+ border:none;
+
+}
+.card{
+    border:none;
+}
+.footer-text{
+    list-style: none;
+    margin-right: 1em;
+}
+.footer-text li{
+    margin: 1em;
+}
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: black;
+}
+.footer-img{
+    margin-right: 5em;
+}
+.footer-img-div{
+    height: 85px;
+    background-image: url(Pepsi/logo-es.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.second-button{
+    margin-top: -25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
